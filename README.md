@@ -1,3 +1,4 @@
+
 # Proyecto de Machine Learning para Predicción de Ventas
 
 Este proyecto utiliza PySpark para entrenar un modelo de Machine Learning que predice las ventas totales a partir de un conjunto de datos de ventas de 2019. El cuaderno de Jupyter se ejecuta en un contenedor Docker que incluye todas las dependencias necesarias.
@@ -35,6 +36,16 @@ Construye la imagen Docker que contiene Jupyter Notebook y PySpark:
 docker build -t jupyter-pyspark .
 ```
 
+### 3. Ejecutar el contenedor Docker
+
+Ejecuta el contenedor Docker con el siguiente comando. Esto montará tu directorio local en el contenedor, lo que permitirá al cuaderno acceder a los archivos CSV:
+
+```bash
+docker run -p 8888:8888 -v .:/home/jovyan/work jupyter-pyspark
+```
+
+- **-p 8888:8888**: Exponemos el puerto 8888 para acceder al Jupyter Notebook desde el navegador.
+- **-v .:/home/jovyan/work**: Montamos el directorio local en el contenedor.
 
 ### 4. Acceder al Jupyter Notebook
 

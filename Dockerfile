@@ -5,7 +5,7 @@ FROM jupyter/pyspark-notebook:latest
 WORKDIR /app
 
 # Copiar el cuaderno de Jupyter en el contenedor
-COPY training-model.ipynb .
+COPY training-model-local.ipynb .
 
 # Abrir el puerto 8888 para acceder al Jupyter Notebook
 EXPOSE 8888

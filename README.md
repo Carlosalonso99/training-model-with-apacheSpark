@@ -48,10 +48,7 @@ cd dp203/Allfiles/labs/05
 2. En el **notebook** que se abre, selecciona el grupo de **Spark** apropiado (creado en los pasos anteriores).
 3. Ejecuta todas las celdas del notebook para cargar los datos en un **DataFrame** de Spark.
 
-### 5. Consultar los Datos
-
-- Puedes utilizar **Spark SQL** para realizar consultas sobre los datos cargados.
-- Los **DataFrames** de Spark se pueden manipular utilizando comandos en **Python**, **Scala**, o **SQL**, para limpiar y analizar los datos.
+### 5. Usar el cuaderno para entrenar el modelo
 
 ## Notas
 

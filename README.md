@@ -1,6 +1,6 @@
 # Proyecto de Machine Learning para Predicción de Ventas
 
-Este proyecto utiliza PySpark para entrenar un modelo de Machine Learning que predice las ventas totales a partir de un conjunto de datos de ventas de 2019 y 2020. El cuaderno de Jupyter se ejecuta en un contenedor Docker que incluye todas las dependencias necesarias.
+Este proyecto utiliza PySpark para entrenar un modelo de Machine Learning que predice las ventas totales a partir de un conjunto de datos de ventas de 2019. El cuaderno de Jupyter se ejecuta en un contenedor Docker que incluye todas las dependencias necesarias.
 
 ## Requisitos previos
 

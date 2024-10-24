@@ -52,11 +52,10 @@ docker run -p 8888:8888 -v .:/home/jovyan/work jupyter-pyspark
 Una vez que el contenedor esté en funcionamiento, en el log de la consola aparecera algo como esto
 
 ```
-    Or copy and paste one of these URLs:
-        http://3129ced89ec7:8888/lab?token=651fc362eef1c597d50756f6c04edf5b3f06b1e74b60936c
-        http://127.0.0.1:8888/lab?token=651fc362eef1c597d50756f6c04edf5b3f06b1e74b60936c
+ http://127.0.0.1:8888/
 ```
 
 Haz clic y accederas a la app
 
 Podrás encontrar el token de acceso en la terminal donde ejecutaste el comando Docker.
+

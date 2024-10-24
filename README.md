@@ -23,8 +23,8 @@ Sigue los pasos a continuación para ejecutar el proyecto en tu máquina local:
 Clona este repositorio en tu máquina local:
 
 ```bash
- git clone <URL_DEL_REPOSITORIO>
- cd <NOMBRE_DEL_REPOSITORIO>
+ git clone https://github.com/Carlosalonso99/training-model-with-apacheSpark.git
+ cd training-model-with-apacheSpark
 ```
 
 ### 2. Construir la imagen Docker

@@ -11,7 +11,7 @@ Asegúrate de tener lo siguiente instalado en tu máquina antes de comenzar:
 ## Archivos incluidos
 
 - **Dockerfile**: Define la imagen Docker que incluye PySpark y Jupyter Notebook.
-- **training-model.ipynb**: Cuaderno de Jupyter que contiene el código para entrenar y evaluar el modelo de Machine Learning.
+- **training-model-local.ipynb**: Cuaderno de Jupyter que contiene el código para entrenar y evaluar el modelo de Machine Learning.
 - **data/2019.csv** y **data/2020.csv**: Archivos CSV que contienen los datos de ventas de 2019 y 2020 respectivamente.
 
 ## Instrucciones de Configuración y Ejecución

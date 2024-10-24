@@ -35,7 +35,6 @@ Construye la imagen Docker que contiene Jupyter Notebook y PySpark:
 docker build -t jupyter-pyspark .
 ```
 
-
 
 ### 4. Acceder al Jupyter Notebook
 

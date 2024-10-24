@@ -52,7 +52,7 @@ docker run -p 8888:8888 -v .:/home/jovyan/work jupyter-pyspark
 Una vez que el contenedor esté en funcionamiento, en el log de la consola aparecera algo como esto
 
 ```
- http://127.0.0.1:8888/
+ http://127.0.0.1:8888
 ```
 
 Haz clic y accederas a la app
